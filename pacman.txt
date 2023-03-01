@@ -1,0 +1,36 @@
+
+¿Que recursos consume el argorimo?
+Resultado en beecrowd:
+PROBLEMA:2451 - PacMan
+RESPUESTA:Accepted
+LENGUAJE:Java 14 (OpenJDK 1.14.0) [+2s]
+TIEMPO:0.675s
+TAMAÑO DE ARCHIVO:2,83 KB
+MEMORIA: -
+ENVIO: 14/2/23 15:21:18
+
+Documentacion codigo pacman
+
+Funcion "crearTablero"	
+	En esta funcion tiene como entrada el valor de la dimencion de la matriz y la matriz ingresada en formato string por el usuario. Se crea el tablero y la funcion
+	retorna una matriz .
+
+Funcion "ObtenerComida"
+	Esta funcion recibimos el tablero de juego, se encarga de recorrer la matriz, evalua dependiendo del modulo para determinar 
+	si la posicion en la fila es par o impar,así determinando si se debe recorrer de derecha a izquierda o al contrario.
+
+Funcion "recorrerDerechaIzquierda"
+	Esta funcion recibe la fila actual, el tablero de juego y la clase pacman,para asi poder recorrer la matriz de derecha a izquierda
+
+Funcion "recorrerIzquierdaDerecha"
+	Esta funcion recibe la fila actual, el tablero de juego y la clase pacman,para asi poder recorrer la matriz de izquierda a derecha
+
+
+Funcion "calcularMaximaComida"
+	Esta funcion recibe una lista de la cantidad de camida que obtenida el pacman antes de encontrarse con una fantas,se encarga de evaluar todos los posibles caminos 
+	en la que el pacman logro obtener comida sin incontrarse con ningun fantasma y asi determinar cual es el mejor camino.
+
+"main"
+	En el main toma todos los datos de prueba ingresados y ademas llama los metodos para crear la matriz y obtnerComida.
+
+Tiempo invertido: 5 horas
